@@ -9,11 +9,6 @@ document.addEventListener("mousemove", function(e){
     bubbles.style.width = size+'px';
     bubbles.style.height = size+'px';
 
-    var r = Math.floor(Math.random() * 256);
-var g = Math.floor(Math.random() * 256);
-var b = Math.floor(Math.random() * 256);
-var bgColor = "rgb(" + r + "," + g + "," + b + ")";
-bubbles.style.background = bgColor;
     body.appendChild(bubbles);
 
     setTimeout(function(){
