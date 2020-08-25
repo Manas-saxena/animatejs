@@ -1,1 +1,1 @@
-# animatejs
+# animation-js
